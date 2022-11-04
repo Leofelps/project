@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/src/script.js"></script>
+    <script src="https://kit.fontawesome.com/5ed5f18b78.js" crossorigin="anonymous"></script>
+     
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="/assets/logo.png" alt=""></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="/assets/bg.jpg" class="bg" alt="">
+        <div class="content">
+            <img src="/assets/name.png" class="movieTitle" alt="">
+            <h4>
+                <span>2020</span>
+                <span><i>12+</i></span>
+                <span>1h 55min</span>
+                <span>Action</span>
+            </h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore cum, autem repellat dicta debitis eaque
+                inventore provident, a quaerat quam illo aperiam necessitatibus accusamus officia, numquam rem impedit
+                quis. Quasi?</p>
+
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> PLAY</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> MY LIST</a>
+            </div>
+
+        </div>
+        <a class="play" onclick="toggleVideo()"><img src="/assets/play.png" alt="">Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="/Sea of Thieves 2022.04.26 - 21.12.34.01_Trim.mp4" controls="true"></video>
+        <img src="/assets/close.png" class="close" onclick="toggleVideo()" alt="">
+    </div>
+
+</body>
+
+</html>
